@@ -9,9 +9,4 @@ public class DemoApplication {
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
     }
-
-    @GetMapping(value = "/hello")
-    public String helloworld() {
-        return "helloworld";
-    }
 }
